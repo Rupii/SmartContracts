@@ -1,3 +1,5 @@
+pragma solidity ^0.4.17;
+
 contract Coin {
     address minter;
     mapping (address => uint) balances;
